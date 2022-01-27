@@ -1,4 +1,4 @@
-# 实用程序
+# 实用功能
 
 [TOC]
 
@@ -80,6 +80,7 @@
 <p>
     <img alt="Tecent Cloud" src="https://img.shields.io/badge/-Tecent_Cloud-3572A5?style=flat&logo=tencentqq&logoColor=white" />
 </p>
+
 #### 描述
 
 调用腾讯云API实现人脸识别。
