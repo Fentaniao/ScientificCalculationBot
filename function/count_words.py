@@ -119,5 +119,3 @@ table_result(words_by_n_list)
 # my_table = plt.table(cellText=table_vals, colWidths=[0.5] * 2, colLabels=col_labels,
 #                      colColours=row_colors * 2, loc='center')
 # plt.show()
-import os
-os.system('pause')

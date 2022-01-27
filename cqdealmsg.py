@@ -367,37 +367,37 @@ def deal(user_id, group_id, discuss_id, nickname, message):
             conversational(message)
         show("Finish query.")
 
-    elif message.startswith('模块：'):
-        index1 = sym_readme.find('## ' + message[3:])
-        index2 = index1 + 4
-        while True:
-            index2 = sym_readme.find('## ', index2 + 1)
-            if sym_readme[index2 - 1] != '#':
-                break
-        display = '模块' \
-                  + sym_readme[index1:index2 - 1] \
-                  + '直接说“模板：###后的条目”，可以获取对应的模板,可以复制并修改.\n' \
-                    '熟悉语法后，可自行编写代码进行，说“模板：自定义”，获取自定义模板。'
-        show(display)
-
-    elif message.startswith('模板：'):
-        index1 = sym_readme.find('### ' + message[3:])
-        new_index1 = sym_readme.find('```', index1)
-
-        index2 = index1 + 4
-        while True:
-            index2 = sym_readme.find('### ', index2 + 1)
-            if sym_readme[index2 - 1] != '#':
-                break
-
-        index3 = index1 + 4
-        while True:
-            index3 = sym_readme.find('## ', index3 + 1)
-            if sym_readme[index3 - 1] != '#':
-                break
-        new_index2 = sym_readme.find('```', new_index1 + 4, min(index2, index3))
-        display = 'sympy\n' + sym_readme[new_index1 + 4: new_index2 - 1] + '\nplay'
-        show(display)
+    # elif message.startswith('模块：'):
+    #     index1 = sym_readme.find('## ' + message[3:])
+    #     index2 = index1 + 4
+    #     while True:
+    #         index2 = sym_readme.find('## ', index2 + 1)
+    #         if sym_readme[index2 - 1] != '#':
+    #             break
+    #     display = '模块' \
+    #               + sym_readme[index1:index2 - 1] \
+    #               + '直接说“模板：###后的条目”，可以获取对应的模板,可以复制并修改.\n' \
+    #                 '熟悉语法后，可自行编写代码进行，说“模板：自定义”，获取自定义模板。'
+    #     show(display)
+    #
+    # elif message.startswith('模板：'):
+    #     index1 = sym_readme.find('### ' + message[3:])
+    #     new_index1 = sym_readme.find('```', index1)
+    #
+    #     index2 = index1 + 4
+    #     while True:
+    #         index2 = sym_readme.find('### ', index2 + 1)
+    #         if sym_readme[index2 - 1] != '#':
+    #             break
+    #
+    #     index3 = index1 + 4
+    #     while True:
+    #         index3 = sym_readme.find('## ', index3 + 1)
+    #         if sym_readme[index3 - 1] != '#':
+    #             break
+    #     new_index2 = sym_readme.find('```', new_index1 + 4, min(index2, index3))
+    #     display = 'sympy\n' + sym_readme[new_index1 + 4: new_index2 - 1] + '\nplay'
+    #     show(display)
 
     else:
         if 0 <= message.find('play'):

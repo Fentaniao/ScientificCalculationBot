@@ -1,4 +1,5 @@
 import requests
+from cqdealmsg import *
 
 # wolframAPI
 appid = ""
