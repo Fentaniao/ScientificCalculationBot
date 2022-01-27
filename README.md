@@ -16,11 +16,11 @@
 
 ### 端到端服务
 
-用户只需要从QQ发送消息，即可被捕获进行处理。机器人将通过文字消息或是LaTeX引擎渲染出图片返回结果。
+用户只需要从QQ发送消息，消息即可被机器人捕获并进行处理。机器人将通过文字消息或是LaTeX引擎渲染出图片返回结果。
 
 ### 基于Python库和云的强大功能
 
-调用了多个Python库、Wolfram、阿里云、腾讯云等实现。
+本项目调用了多个Python库、Wolfram、阿里云、腾讯云等来实现机器人的各种功能。
 
 ### 科学计算与绘图
 
@@ -45,7 +45,7 @@
 - 微分方程
 - ......
 
-[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/ScientificCalculation.md)查看使用方法。
+[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/ScientificCalculation.md)查看详细内容。
 
 ### 绘图
 
@@ -58,7 +58,7 @@
 - 二元隐函数
 - 参数方程
 
-[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/Plot.md)查看使用方法。
+[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/Plot.md)查看详细内容。
 
 ### 聊天互动和群聊管理
 
@@ -74,7 +74,7 @@
 - 获取信息
 - 自检
 
-[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/Interaction.md)查看使用方法。
+[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/Interaction.md)查看详细内容。
 
 ### 实用功能
 
@@ -90,7 +90,7 @@
 - 发送语音
 - 若干实验性功能(Beta)
 
-[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/Utilities.md)查看使用方法。
+[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/Utilities.md)查看详细内容。
 
 ## Contact
 
