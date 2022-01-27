@@ -1,13 +1,17 @@
-![logo](README.assets/logo.png)
+<p align="center">
+ <img width="100px" src="README.assets/logo.png" />
+</p>
+<p align="center">
+ <img width="500px" src="README.assets/name.png" />
+</p>
 
-# Scientific Calculation Bot
-
-<p>
+<p align="center">
     <img src="https://img.shields.io/github/v/release/fentaniao/ScientificCalculationBot?&color=blue&logo=hack-the-box" />
     <img alt="ChatBot" src="https://img.shields.io/badge/-ChatBot-3572A5?style=flat&logo=ChatBot&logoColor=white" />
     <img alt="Python" src="https://img.shields.io/badge/-Python-3572A5?style=flat&logo=python&logoColor=white" />
     <img alt="CQ-HTTP" src="https://img.shields.io/badge/-CQ--HTTP-3572A5?style=flat&logo=tencentqq&logoColor=white" />
 </p>
+
 
 基于Python 科学计算和绘图库和CQ-HTTP框架开发，提供基于QQ客户端的端到端服务，集科学计算、绘图、排版、聊天互动、群聊管理等功能为一体的智能QQ机器人。
 
