@@ -18,23 +18,37 @@
 
 ### 科学计算
 
-1
+科学计算功能由Python的numpy库和SymPy库提供，可以计算Python格式的表达式，并通过QQ文字消息或图片消息回复计算结果。
+
+[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/ScientificCalculation.md)查看使用方法
+
+
 
 ### 绘图
 
-1
+绘图功能由Python的matplotlib库提供，提供多个接口实现绘图功能，并通过QQ图片消息的形式回复绘制好的图片。
+
+点击[文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/ScientificCalculation.md)查看使用方法
+
+
 
 ### 排版
 
-1
+点击[文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/ScientificCalculation.md)查看使用方法
+
+
 
 ### 聊天互动
 
-1
+点击[文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/ScientificCalculation.md)查看使用方法
+
+
 
 ### 群聊管理
 
-1
+点击[文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/ScientificCalculation.md)查看使用方法
+
+
 
 ### 实验性功能（暂未开放）
 
