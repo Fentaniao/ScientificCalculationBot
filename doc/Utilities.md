@@ -1,10 +1,4 @@
----
-Count words frequency
----
-
-# 对文本进行清洗的程序
-
-
+# 实用程序
 
 [TOC]
 

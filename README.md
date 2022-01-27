@@ -39,21 +39,21 @@
 
 
 
-### 聊天互动
+### 聊天互动和群聊管理
 
 
 
 
 
-[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/Chat.md)查看使用方法
+[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/Interaction.md)查看使用方法
 
-### 群聊管理
-
-
+### 实用程序
 
 
 
-[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/GroupManage.md)查看使用方法
+
+
+[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/Utilities.md)查看使用方法
 
 ### 实验性功能（暂未开放）
 
