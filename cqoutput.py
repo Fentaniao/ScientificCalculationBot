@@ -1,5 +1,4 @@
-import requests
-from getvoice import *
+from function.getvoice import *
 
 
 # 发送私聊/群聊/讨论组消息（强功能）

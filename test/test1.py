@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# 腾讯云人脸识别
+# 测试腾讯云人脸识别
 from tencentcloud.common import credential
 from tencentcloud.common.exception.tencent_cloud_sdk_exception import TencentCloudSDKException
 # 导入对应产品模块的 client models。

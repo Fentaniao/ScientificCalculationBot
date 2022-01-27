@@ -1,6 +1,6 @@
 # 导入调用的文件
 from cqoutput import *
-import cqsym
+from function import cqsym
 
 # 导入库
 import time

@@ -1,5 +1,5 @@
 import cqdealmsg
-import cqsym
+from function import cqsym
 
 from flask import Flask, request
 from json import loads
