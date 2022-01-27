@@ -1,10 +1,7 @@
 <p align="center">
- <img width="100px" src="README.assets/logo.png" />
+ <img width="100px" src="README.assets/logo.png"  align="center" />
+  <h1 align="center">GitHub Readme Stats</h2>
 </p>
-<p align="center">
- <img width="500px" src="README.assets/name.png" />
-</p>
-
 <p align="center">
     <img src="https://img.shields.io/github/v/release/fentaniao/ScientificCalculationBot?&color=blue&logo=hack-the-box" />
     <img alt="ChatBot" src="https://img.shields.io/badge/-ChatBot-3572A5?style=flat&logo=ChatBot&logoColor=white" />
