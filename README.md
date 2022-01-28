@@ -8,75 +8,82 @@
     <img alt="Python" src="https://img.shields.io/badge/-Python-3572A5?style=flat&logo=python&logoColor=white" />
     <img alt="CQ-HTTP" src="https://img.shields.io/badge/-CQ--HTTP-3572A5?style=flat&logo=tencentqq&logoColor=white" />
 </p>
-基于Python 科学计算和绘图库和CQ-HTTP框架开发，提供基于QQ客户端的端到端服务，集科学计算、绘图、排版、聊天互动、群聊管理等功能为一体的智能QQ机器人。
+<p align="center">
+	<a href="https://github.com/Fentaniao/ScientificCalculationBot/blob/main/README.md">English Readme</a> • 
+	<a href="https://github.com/Fentaniao/ScientificCalculationBot/blob/main/README_zh.md">中文自述文件</a>
+</p>
 
-**由于CQ-HTTP于2020年秋已经停止服务，故本项目停止维护。**
+An intelligent QQ bot based on Python scientific calculation and drawing library and CQ-HTTP framework, providing end-to-end services based on QQ client, and integrating scientific calculation, drawing, layout, chat interaction, group manage and other functions.
 
-## 特色
+:warning: **This project stops maintenance because CQ-HTTP framework has been discontinued in the fall of 2020.**
 
-### 端到端服务
+## Features
 
-用户只需要从QQ发送消息，消息即可被机器人捕获并进行处理。机器人将通过文字消息或是LaTeX引擎渲染出图片返回结果。
+### End-to-end service
 
-### 基于Python库和云的强大功能
+Users only need to send messages from QQ, and then the messages will be captured and processed by the bot. The bot will return the results either through text messages or images rendered by the $\LaTeX$ engine.
 
-本项目调用了多个Python库、Wolfram、阿里云、腾讯云等来实现机器人的各种功能。
+### Based on powerful Python library and cloud
 
-### 科学计算与绘图
+This project calls several Python libraries, Wolfram, AliCloud, Tencent Cloud, etc. to implement various functions of the bot.
 
-具有娱乐性功能的QQ机器人非常常见，但是具备科学计算和绘图的QQ机器人却非常少见。本机器人重点打造了科学计算和绘图的功能，基于SymPy库实现的科学计算功能，可以用简单的语法实现SymPy库中的各种功能，而基于matplotlib库实现的绘图功能，则通过了多种函数来实现各种简单或复杂的绘图任务。
+### Scientific calculation and drawing
 
-## 主要功能
+QQ bots with entertaining features are very common, but QQ bots with scientific calculation and drawing are very rare. This bot focuses on scientific calculation and plotting. The scientific calculation function based on the SymPy library can use a simple syntax to implement various functions in the SymPy library, while the plotting function based on the matplotlib library uses a variety of functions to implement various simple or complex plotting tasks.
 
-### 科学计算
+## Main functions
+
+### Scientific calculation
 
 <p>
     <img alt="numpy" src="https://img.shields.io/badge/package-numpy-3572A5?style=flat&logoColor=white" />
     <img alt="SymPy" src="https://img.shields.io/badge/package-SymPy-3572A5?style=flat&logoColor=white" />
 </p>
-科学计算功能由Python的numpy库和SymPy库提供，可以计算Python格式的表达式，并通过QQ文字消息或图片消息回复结果。现有功能包括：
 
-- 符号表示
-- 恒等变换
-- 化简
-- 解方程
-- 极限
-- 微积分
-- 微分方程
+Scientific calculation functionality is provided by Python's numpy library and SymPy library, which can compute expressions in Python format and reply to the results via QQ text messages or image messages. Available features include
+
+- symbolic representation
+- constant transformations
+- simplify
+- Solving equations
+- Limits
+- Calculus
+- Differential equations
 - ......
 
-[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/ScientificCalculation.md)查看详细内容。
+[Click on the document](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/ScientificCalculation.md) for details.
 
-### 绘图
+### Plot
 
 <p>
 	<img alt="matplotlib" src="https://img.shields.io/badge/package-matplotlib-3572A5?style=flat&logoColor=white" />
 </p>
-绘图功能由Python的matplotlib库提供，提供多个接口实现不同种类函数的绘图绘制，并通过QQ图片消息的形式回复绘制好的图片。现有功能包括：
 
-- 一元显函数
-- 二元隐函数
-- 参数方程
+The plotting functionality is provided by Python's matplotlib library, which provides several interfaces to implement different kinds of functions for plotting and replying to the plotted image via a QQ image message. Available functions include
 
-[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/Plot.md)查看详细内容。
+- one-dimensional explicit functions
+- binary implicit functions
+- Parameter equations
 
-### 聊天互动和群聊管理
+[Click on the document](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/Plot.md) for details
+
+### Chat interaction and group management
 
 <p>
     <img alt="coolQ" src="https://img.shields.io/badge/-coolQ-3572A5?style=flat&logo=tencentqq&logoColor=white" />
 </p>
 
-通过对coolQ提供的接口进行二次开发，实现聊天互动和群聊管理等基础功能。现有功能包括：
+The basic features such as chat interaction and group chat management are implemented by secondary development of the interface provided by coolQ. Existing features include
 
-- 基础互动
-- 群聊管理
-- 处理请求
-- 获取信息
-- 自检
+- Basic interaction
+- Group chat management
+- Handling requests
+- Get information
+- Self-check
 
-[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/Interaction.md)查看详细内容。
+[Click on the document](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/Interaction.md) for details.
 
-### 实用功能
+### Useful functions
 
 <p>
     <img alt="Wolfram" src="https://img.shields.io/badge/-Wolfram-3572A5?style=flat&logo=Wolfram&logoColor=white" />
@@ -84,13 +91,14 @@
     <img alt="Alibaba Cloud" src="https://img.shields.io/badge/-Alibaba_Cloud-3572A5?style=flat&logo=AlibabaCloud&logoColor=white" />
     <img alt="Tecent Cloud" src="https://img.shields.io/badge/-Tecent_Cloud-3572A5?style=flat&logo=tencentqq&logoColor=white" />
 </p>
-围绕云和Python开发的一系列实用程序。现有功能包括：
 
-- 科学百科
-- 发送语音
-- 若干实验性功能(Beta)
+A series of utilities developed around the cloud and Python. Available features include
 
-[点击文档](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/Utilities.md)查看详细内容。
+- Science Encyclopedia
+- Voice Message
+- Several experimental features (Beta)
+
+[Click on the document](https://github.com/Fentaniao/ScientificCalculationBot/blob/main/doc/Utilities.md) for details.
 
 ## Contact
 
