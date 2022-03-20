@@ -1,6 +1,6 @@
 <p align="center">
  <img width="100px" src="README.assets/logo.png"  align="center" />
-  <h1 align="center">Scientific Calculation Bot</h2>
+  <h1 align="center">Scientific Calculation Bot</h1>
 </p>
 <p align="center">
     <img src="https://img.shields.io/github/v/release/fentaniao/ScientificCalculationBot?&color=blue&logo=hack-the-box"/>
